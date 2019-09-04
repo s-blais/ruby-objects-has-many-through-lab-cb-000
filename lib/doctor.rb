@@ -10,7 +10,7 @@ class Doctor
   end
 
   def self.all
-    @@alllearn
+    @@all
   end
 
   def new_appointment(patient, date)
