@@ -10,11 +10,9 @@ def intialize(patient, doctor, date)
   @date = date
   @@all << self
 end
-  
+
   def self.all
     @@all
   end
-
-
 
 end
