@@ -25,6 +25,4 @@ class Doctor
     appointments.collect {|appt| appt.patient}
   end
 
-
-
 end
