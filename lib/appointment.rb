@@ -4,10 +4,10 @@ class Appointment
 
   @@all = []
 
-  def intialize(patient, doctor, date="")
+  def intialize(patient, doctor, date)
     @patient = patient
     @doctor = doctor
-    @date = date.to_s
+    @date = date.strftime("%A, %B %-d")
     @@all << self
   end
 
